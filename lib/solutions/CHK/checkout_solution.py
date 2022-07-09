@@ -8,15 +8,17 @@ def checkout(skus):
     A, B, C, D = 0
 
     while i < len(skus):
-        if i == "A":
-            A = A + 1
-        elif i == "B":
-            B = B + 1
-        elif i == "C":
-            C = C + 1
-        elif i == "D":
-            D = D + 1
-        else: return -1
+        if i != "," or i != " ":
+            if i == "A":
+                A = A + 1
+            elif i == "B":
+                B = B + 1
+            elif i == "C":
+                C = C + 1
+            elif i == "D":
+                D = D + 1
+            else: return -1
+        i = i + 1
 
     if A == 3:
         price = price + 130
@@ -35,5 +37,6 @@ def checkout(skus):
         price = price + D * 20
 
     return price
+
 
 
