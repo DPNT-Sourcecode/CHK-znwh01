@@ -4,7 +4,3 @@ def compute(x,y):
 
 #def compute(x, y):
 #    raise NotImplementedError()
-
-
-
-
