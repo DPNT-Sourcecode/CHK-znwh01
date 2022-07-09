@@ -4,9 +4,8 @@
 # skus = unicode string
 def checkout(skus):
     price = 0
-    i = 0
     A, B, C, D = 0
-
+    i = 0
     while i < len(skus):
         if i != "," or i != " ":
             if i == "A":
@@ -34,7 +33,7 @@ def checkout(skus):
         price = price + C * 20
 
     if D > 0:
-        price = price + D * 20
+        price = price + D * 15
 
     return price
 
