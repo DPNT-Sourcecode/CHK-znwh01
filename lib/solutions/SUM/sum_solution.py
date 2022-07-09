@@ -2,8 +2,9 @@
 def compute(x,y):
     return(x+y)
 
-def compute(x, y):
-    raise NotImplementedError()
+#def compute(x, y):
+#    raise NotImplementedError()
+
 
 
 
