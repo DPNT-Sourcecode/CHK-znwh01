@@ -6,4 +6,3 @@ class Sum_calculator:
         else: print("Please enter numbers between 0 and 100")
 def compute(x, y):
     raise NotImplementedError()
-
