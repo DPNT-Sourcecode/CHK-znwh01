@@ -16,7 +16,8 @@ def checkout(skus):
                 C = C + 1
             elif skus[i] == "D":
                 D = D + 1
-            else: return -1
+            else:
+                return -1
         i = i + 1
 
     if A == 3:
@@ -36,4 +37,5 @@ def checkout(skus):
         price = price + D * 15
 
     return price
+
 
