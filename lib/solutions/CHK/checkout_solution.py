@@ -26,10 +26,14 @@ def checkout(skus):
     if B == 2:
         price = price + 45
     elif B > 0:
-        price = price + A * 30
+        price = price + B * 30
 
     if C > 0:
-        price = price + A * 30
+        price = price + C * 20
 
+    if D > 0:
+        price = price + D * 20
+
+    return price
 
 
