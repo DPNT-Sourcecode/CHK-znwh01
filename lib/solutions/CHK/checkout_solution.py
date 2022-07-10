@@ -37,5 +37,3 @@ def checkout(skus):
         price = price + D * 15
 
     return price
-
-
